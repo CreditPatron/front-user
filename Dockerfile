@@ -5,8 +5,7 @@ RUN apk add --no-cache libc6-compat
 WORKDIR /app
 
 # Install dependencies based on the preferred package manager
-# COPY package.json yarn.lock* package-lock.json* pnpm-lock.yaml* ./
-COPY package-lock.json yarn.lock* package-lock.json* pnpm-lock.yaml* ./
+COPY package.json yarn.lock* package-lock.json* pnpm-lock.yaml* ./
 RUN \
   if [ -f yarn.lock ]; then yarn --frozen-lockfile; \
   elif [ -f package-lock.json ]; then npm ci; \
@@ -29,7 +28,7 @@ COPY . .
 # RUN npm install -D tailwindcss postcss autoprefixer react-icons
 # RUN npm install 
 RUN npm install --force
-RUN npm install -D tailwindcss postcss autoprefixer react-icons
+RUN npm install -D tailwindcss postcss autoprefixer react-icons react-dom react
 RUN yarn build
 
 # If using npm comment out above and use below instead
