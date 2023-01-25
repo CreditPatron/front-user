@@ -27,7 +27,7 @@ COPY . .
 
 # RUN npm install -D tailwindcss postcss autoprefixer react-icons
 # RUN npm install 
-RUN npm install -D tailwindcss postcss autoprefixer react-icons react-dom react
+RUN npm install --force -D tailwindcss postcss autoprefixer react-icons react-dom react 
 RUN npm install --force
 RUN yarn build
 
