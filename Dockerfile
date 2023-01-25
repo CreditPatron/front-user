@@ -10,7 +10,7 @@ COPY package.json package-lock.json* ./
 
 # Rebuild the source code only when needed
 FROM node:18-alpine AS builder
-WORKDIR /app
+WORKDIR /
 COPY --from=deps /node_modules ./node_modules
 COPY . .
 
