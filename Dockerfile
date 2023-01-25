@@ -25,7 +25,8 @@ COPY . .
 # Uncomment the following line in case you want to disable telemetry during the build.
 # ENV NEXT_TELEMETRY_DISABLED 1
 
-RUN npm install -D tailwindcss postcss autoprefixer react-icons
+# RUN npm install -D tailwindcss postcss autoprefixer react-icons
+# RUN npm install 
 RUN npm install --force
 RUN yarn build
 
