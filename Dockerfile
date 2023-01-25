@@ -10,8 +10,8 @@ COPY package.json package-lock.json* ./
 
 # Rebuild the source code only when needed
 FROM node:18-alpine AS builder
-WORKDIR /
-COPY --from=deps /node_modules ./node_modules
+WORKDIR /app
+COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 
 # Next.js collects completely anonymous telemetry data about general usage.
