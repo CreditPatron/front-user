@@ -12,10 +12,10 @@ module.exports = {
       },
       colors: {
         current: "currentColor",
-        green: colors.emerald,
+        green: colors.teal,
         yellow: colors.amber,
-        purple: colors.violet,
-        gray: colors.neutral,
+        purple: colors.sky,
+        gray: colors.slate,
       },
     },
   },
