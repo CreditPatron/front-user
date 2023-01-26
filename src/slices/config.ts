@@ -13,9 +13,9 @@ interface ConfigState {
 
 // Define the initial state using that type
 const initialState: ConfigState = {
-  name: "D-board",
-  description: "Next.js Tailwind CSS admin template",
-  url: "https://d-board-nextjs.mobifica.com",
+  name: "Credit Patron",
+  description: "Przystępny kredyt, bezpieczna inwestycja.",
+  url: "https://login.creditpatron.pl/",
   layout: "layout-1",
   collapsed: false,
   rightSidebar: false,
