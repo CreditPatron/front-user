@@ -13,9 +13,9 @@ interface ConfigState {
 
 // Define the initial state using that type
 const initialState: ConfigState = {
-  name: "EVIG Alpha",
-  description: "Crowdfunding platform for Startups",
-  url: "https://evigalfa.pl/",
+  name: "Credit Patron",
+  description: "Przystępny kredyt, bezpieczna inwestycja.",
+  url: "https://creditpatron.pl/",
   layout: "layout-1",
   collapsed: false,
   rightSidebar: false,

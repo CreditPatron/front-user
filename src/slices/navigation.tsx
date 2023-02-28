@@ -29,12 +29,12 @@ export type NavigationState = {
 
 const initialState: NavigationState[] = [
   {
-    title: "Platform",
+    title: "Platforma",
     items: [
       {
         url: "/platform-apply",
         icon: <RiTeamLine size={20} />,
-        title: "Apply for funding",
+        title: "Zawnioskuj o kredyt",
         items: [],
       },      
       {

@@ -5,7 +5,7 @@ const Text: React.FC = () => {
   const {name} = config;
   return (
     <div className="flex flex-col">
-      <p className="mb-4 text-2xl font-bold">Welcome to {name}!</p>
+      <p className="mb-4 text-2xl text-slate-800 font-bold">Witaj {name}!</p>
       <p className="text-sm font-thin">
         Pellentesque habitant morbi tristique senectus et netus et malesuada
         fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae,
