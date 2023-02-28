@@ -8,7 +8,6 @@ import NProgress from "nprogress";
 import "css/tailwind.css";
 import "css/main.css";
 import "css/layouts/layout-1.css";
-import "css/layouts/e-commerce.css";
 import "css/animate.css";
 import "css/components/left-sidebar-1/styles-lg.css";
 import "css/components/left-sidebar-1/styles-sm.css";
@@ -29,6 +28,7 @@ function App({Component, pageProps}: AppProps): React.ReactElement {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
+        <link rel="shortcut icon" href="/icons/favicon.png"/>
       </Head>
       <Provider store={store}>
         <Layout>

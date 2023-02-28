@@ -20,10 +20,10 @@ export const ProgressBarWithText: React.FC<ProgressBarProps> = ({
 }) => {
   return (
     <div
-      className={`relative flex flex-row w-full text-center text-xs items-center h-5`}>
+      className={` flex flex-row w-full text-center text-xs items-center h-5`}>
       <div
         style={{width: `${width}%`}}
-        className={`absolute top-0 w-full ${color} text-white`}>
+        className={` w-full ${color} text-white`}>
         {width}%
       </div>
     </div>

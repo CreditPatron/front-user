@@ -24,81 +24,81 @@ class MyDocument extends Document {
             name="description"
             content="Next.js TailwindCSS admin template"
           />
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="shortcut icon" href="/icons/evig_logo.png"/>
           <link
             rel="apple-touch-icon"
             sizes="57x57"
-            href="/icons/apple-icon-57x57.png"
+            href="/icons/evig_logo.png"
           />
           <link
             rel="apple-touch-icon"
             sizes="60x60"
-            href="/icons/apple-icon-60x60.png"
+            href="/icons/evig_logo.png"
           />
           <link
             rel="apple-touch-icon"
             sizes="72x72"
-            href="/icons/apple-icon-72x72.png"
+            href="/icons/evig_logo.png"
           />
           <link
             rel="apple-touch-icon"
             sizes="76x76"
-            href="/icons/apple-icon-76x76.png"
+            href="/icons/evig_logo.png"
           />
           <link
             rel="apple-touch-icon"
             sizes="114x114"
-            href="/icons/apple-icon-114x114.png"
+            href="/icons/evig_logo.png"
           />
           <link
             rel="apple-touch-icon"
             sizes="120x120"
-            href="/icons/apple-icon-120x120.png"
+            href="/icons/evig_logo.png"
           />
           <link
             rel="apple-touch-icon"
             sizes="144x144"
-            href="/icons/apple-icon-144x144.png"
+            href="/icons/evig_logo.png"
           />
           <link
             rel="apple-touch-icon"
             sizes="152x152"
-            href="/icons/apple-icon-152x152.png"
+            href="/icons/evig_logo.png"
           />
           <link
             rel="apple-touch-icon"
             sizes="180x180"
-            href="/icons/apple-icon-180x180.png"
+            href="/icons/evig_logo.png"
           />
           <link
             rel="icon"
             type="image/png"
             sizes="192x192"
-            href="/icons/android-icon-192x192.png"
+            href="/icons/evig_logo.png"
           />
           <link
             rel="icon"
             type="image/png"
             sizes="32x32"
-            href="/icons/favicon-32x32.png"
+            href="/icons/evig_logo.png"
           />
           <link
             rel="icon"
             type="image/png"
             sizes="96x96"
-            href="/icons/favicon-96x96.png"
+            href="/icons/evig_logo.png"
           />
           <link
             rel="icon"
             type="image/png"
             sizes="16x16"
-            href="/icons/favicon-16x16.png"
+            href="/icons/evig_logo.png"
           />
           <link rel="manifest" href="/manifest.json" />
           <meta name="msapplication-TileColor" content="#2196f3" />
           <meta
             name="msapplication-TileImage"
-            content="/icons/ms-icon-144x144.png"
+            content="/icons/evig_logo.png"
           />
           <meta name="theme-color" content="#2196f3" />
         </Head>

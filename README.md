@@ -74,7 +74,7 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 
 
-###D-board
+###EVIG Alpha
 
 D-board is an advanced, responsive admin template built with Typescript, React, Redux Toolkit, Next.js and Tailwind CSS.
 
@@ -159,7 +159,7 @@ Redux Toolkit config and global store
 `tailwind.config.js`
 Tailwind CSS default configuration
 
-`src/pages/index.tsx`
+`src/pages/inbox.tsx`
 Template index file
 
 `src/pages/_app.tsx`

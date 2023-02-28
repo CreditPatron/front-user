@@ -24,10 +24,10 @@ export const VerticalTabs: React.FC<TabsProps> = ({tabs}) => {
               onClick={() => {
                 setOpenTab(tab.index);
               }}
-              className={`font-bold uppercase text-xs p-4 rounded-lg flex flex-col items-center justify-center w-24 ${
+              className={`font-bold uppercase text-lg p-4 rounded-lg flex flex-col items-center justify-center w-24 ${
                 openTab === tab.index
-                  ? "bg-blue-500 text-white hover:bg-blue-600"
-                  : "bg-white dark:bg-gray-800 dark:hover:bg-gray-700 hover:bg-blue-50"
+                  ? "bg-blue-900 text-white hover:bg-blue-600"
+                  : "bg-white dark:bg-gray-800 dark:hover:bg-gray-700 hover:bg-slate-50"
               }`}
               type="button">
               {tab.title}
@@ -61,7 +61,7 @@ export const Pills: React.FC<TabsProps> = ({tabs}) => {
               onClick={() => {
                 setOpenTab(tab.index);
               }}
-              className={`font-bold uppercase text-xs p-4 rounded-lg flex flex-col items-center justify-center w-24 ${
+              className={`font-medium uppercase text-lg p-4 rounded-lg flex flex-col items-center justify-center w-24 ${
                 openTab === tab.index
                   ? "bg-blue-500 text-white hover:bg-blue-600"
                   : "bg-white dark:bg-gray-800 dark:hover:bg-gray-700 hover:bg-blue-50"
@@ -96,7 +96,7 @@ export const IconTabs: React.FC<TabsProps> = ({tabs}) => {
               onClick={() => {
                 setOpenTab(tab.index);
               }}
-              className={`font-bold uppercase text-xs p-4 rounded-lg flex flex-row items-center justify-around ${
+              className={`font-bold uppercase text-lg p-4 rounded-lg flex flex-row items-center justify-around ${
                 openTab === tab.index
                   ? "bg-blue-500 text-white hover:bg-blue-600"
                   : "bg-white dark:bg-gray-800 dark:hover:bg-gray-700 hover:bg-blue-50"
@@ -131,11 +131,11 @@ export const UnderlinedTabs: React.FC<TabsProps> = ({tabs}) => {
               onClick={() => {
                 setOpenTab(tab.index);
               }}
-              className={
+              className={`font-bold text-lg p-4 border-b-2 ${
                 openTab === tab.index
-                  ? "font-bold uppercase text-xs p-4 border-b-2 border-blue-500 hover:border-blue-500 dark:text-white text-gray-900"
-                  : "font-bold uppercase text-xs p-4 border-b-2 border-white dark:border-gray-900 hover:border-blue-500"
-              }
+                  ? " border-blue-500 hover:border-blue-900 dark:text-white text-gray-900"
+                  : " border-white dark:border-gray-500 hover:border-blue-500"
+                }`}
               type="button">
               {tab.title}
             </button>
@@ -146,7 +146,7 @@ export const UnderlinedTabs: React.FC<TabsProps> = ({tabs}) => {
       {tabs.map((tab, key) => (
         <div
           key={key}
-          className={`w-full ${openTab !== tab.index ? "hidden" : "block"}`}>
+          className={`w-full pt-10 ${openTab !== tab.index ? "hidden" : "block"}`}>
           {tab.content}
         </div>
       ))}
@@ -166,7 +166,7 @@ export const DefaultTabs: React.FC<TabsProps> = ({tabs}) => {
               onClick={() => {
                 setOpenTab(tab.index);
               }}
-              className={`font-bold uppercase text-xs p-4 ${
+              className={`font-bold uppercase text-lg p-4 ${
                 openTab === tab.index
                   ? "bg-blue-500 text-white hover:bg-blue-600"
                   : "bg-white dark:bg-gray-800 dark:hover:bg-gray-700 hover:bg-blue-50"

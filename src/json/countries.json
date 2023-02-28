@@ -80,16 +80,6 @@
     "nativeName": "Bangladesh"
   },
   {
-    "name": "Russian Federation",
-    "alpha2Code": "RU",
-    "alpha3Code": "RUS",
-    "capital": "Moscow",
-    "region": "Europe",
-    "subregion": "Eastern Europe",
-    "population": 146599183,
-    "nativeName": "Россия"
-  },
-  {
     "name": "Japan",
     "alpha2Code": "JP",
     "alpha3Code": "JPN",

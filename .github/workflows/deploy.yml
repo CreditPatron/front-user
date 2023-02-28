@@ -1,0 +1,47 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - master
+
+concurrency:
+  group: '${{ github.workflow }} @ ${{ github.ref }}'
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      id-token: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Authenticate to Google Cloud
+        uses: google-github-actions/auth@v1
+        with:
+          workload_identity_provider: projects/478945106768/locations/global/workloadIdentityPools/github-actions/providers/github-actions
+          service_account: github-actions@evigalpha-crowdfunding.iam.gserviceaccount.com
+
+      - name: Set up Cloud SDK
+        uses: google-github-actions/setup-gcloud@v1
+
+      - name: Authorize Docker push
+        run: gcloud auth configure-docker
+
+      - name: Build and push
+        uses: docker/build-push-action@v4
+        with:
+          push: true
+          tags: eu.gcr.io/evigalpha-crowdfunding/evigalpha-crowdfunding-frontend
+
+      - name: Deploy
+        uses: google-github-actions/deploy-cloudrun@v1
+        with:
+          service: evigalpha-crowdfunding-frontend
+          image: eu.gcr.io/evigalpha-crowdfunding/evigalpha-crowdfunding-frontend
+          region: europe-west3

@@ -1,4 +1,4 @@
-###D-board
+###EVIG Alpha
 
 Requirements
 `node -v` -> v16.13.0 LTS

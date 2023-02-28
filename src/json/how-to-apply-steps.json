@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Step 1",
+    "subtitle": "Lorem ipsum dolor",
+    "active": true,
+    "disabled": false,
+    "description": "description text step 1"
+  },
+  {
+    "id": 2,
+    "title": "Step 2",
+    "subtitle": "Lorem ipsum dolor",
+    "active": false,
+    "disabled": true,
+    "description": "description text step 2"
+  },
+  {
+    "id": 3,
+    "title": "Step 3",
+    "subtitle": "Lorem ipsum dolor",
+    "active": false,
+    "disabled": true,
+    "description": "description text step 3"
+  },
+  {
+    "id": 4,
+    "title": "Step 4",
+    "subtitle": "Lorem ipsum dolor",
+    "active": false,
+    "disabled": true,
+    "description": "description text step 4"
+  }
+]
