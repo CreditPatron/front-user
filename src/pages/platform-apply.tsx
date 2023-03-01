@@ -1,10 +1,10 @@
 import SectionTitle from "components/section-title";
-import ApplyFunding from "../components/startup/apply-funding";
+import ApplyFunding from "../components/borrower/apply-credit";
 
 const Index: React.FC = () => {
   return (
       <>
-        <SectionTitle title="" subtitle="Apply for funding" />
+        <SectionTitle title="" subtitle="Zawnioskuj o kredyt" />
         <ApplyFunding />
       </>
   );

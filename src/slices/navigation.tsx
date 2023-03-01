@@ -133,6 +133,45 @@ const initialState: NavigationState[] = [
     ]
   },
   {
+    title: "(po zalogowaniu) Admin",
+    items: [
+      {
+        url: "/admin-business",
+        icon: <AiOutlineDashboard size={20} />,
+        title: "Widok biznesowy",
+        items: [],
+      },
+      {
+        url: "/admin-business",
+        icon: <AiOutlineDashboard size={20} />,
+        title: "Widok operacyjny",
+        items: [],
+      },            
+      {
+        url: "/",
+        icon: <GrDocumentVerified size={20} />,
+        title: "Wnioski",
+        items: [
+          {
+            url: "/profile-funding-opened",
+            title: "Wysłane wnioski",
+            items: [],
+          },
+          {
+            url: "/admin-manage",
+            title: "Otwarte wnioski",
+            items: [],
+          },
+          {
+            url: "/profile-invoices",
+            title: "Aktywne kredyty",
+            items: [],
+          },
+        ],
+      }
+    ]
+  },
+  {
     title: "Informacja",
     items: [
       {
@@ -168,6 +207,7 @@ const initialState: NavigationState[] = [
 
     ]
   },
+
 ];
 
 // Define the initial state using that type

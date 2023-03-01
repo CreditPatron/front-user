@@ -23,12 +23,12 @@ const CounterUp = ({ count, time }) => {
 const Index: React.FC = () => {
   return (
       <>
-        <SectionTitle title="" subtitle="Opened Funding" />
+        <SectionTitle title="" subtitle="" />
         <Widget>
           <section className="py-2" id="stats">
           <Title
-            title="Opened Startups funding"
-            description="Find best sturtups and own the business of the future"
+            title="Aktywne wnioski"
+            description="Dedykowane i bezpieczne inwestycje."
             />
             <div className="max-w-6xl mx-auto">
               <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 flex justify-center">
@@ -42,10 +42,10 @@ const Index: React.FC = () => {
 
                   <div className="sm:py-2 sm:ml-6">
                     <span className="sm:text-2xl font-bold font-heading count">+ </span>
-                    <span className="sm:text-2xl font-bold font-heading count"><CounterUp count={100} time={1} />
+                    <span className="sm:text-2xl font-bold font-heading count"><CounterUp count={8} time={1} />
                                     </span>
-                    {/* <span className="sm:text-2xl font-bold font-heading count">%</span> */}
-                    <p className="text-xs sm:text-base text-slate-800">Statsups funded</p>
+                    <span className="sm:text-2xl font-bold font-heading count">%</span>
+                    <p className="text-xs sm:text-base text-slate-800">Średnia stopa zwrotu</p>
                   </div>
                 </div>
                 <div className="hover-up-5 flex w-1/2 lg:w-auto py-4 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
@@ -57,11 +57,11 @@ const Index: React.FC = () => {
                     </svg>
                   </div>
                   <div className="sm:py-2 sm:ml-6">
-                    <span className="sm:text-2xl font-bold font-heading count">+ </span>
+                    <span className="sm:text-2xl font-bold font-heading count"> </span>
                     <span className="sm:text-2xl font-bold font-heading count"><CounterUp count={100} time={1} />
                                     </span>
-                    <span className="sm:text-2xl font-bold font-heading count"> mln $</span>
-                    <p className="text-xs sm:text-base text-slate-800">Funding applied</p>
+                    <span className="sm:text-2xl font-bold font-heading count">%</span>
+                    <p className="text-xs sm:text-base text-slate-800">Weryfikowanych inwestycji</p>
                   </div>
                 </div>
                 <div className="hover-up-5 flex w-1/2 lg:w-auto py-4 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
@@ -73,9 +73,9 @@ const Index: React.FC = () => {
                   </div>
                   <div className="sm:py-2 sm:ml-6">
                     <span className="sm:text-2xl font-bold font-heading count">+ </span>
-                    <span className="sm:text-2xl font-bold font-heading count"><CounterUp count={10} time={1} />
+                    <span className="sm:text-2xl font-bold font-heading count"><CounterUp count={1000} time={1} />
                                     </span>
-                    <p className="text-xs sm:text-base text-slate-800">Opened funding</p>
+                    <p className="text-xs sm:text-base text-slate-800">Dostępnych wniosków</p>
                   </div>
                 </div>
               </div>
