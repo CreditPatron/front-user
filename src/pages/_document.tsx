@@ -22,83 +22,83 @@ class MyDocument extends Document {
           <meta charSet="utf-8" />
           <meta
             name="description"
-            content="Next.js TailwindCSS admin template"
+            content="Przystępny kredyt, bezpieczna inwestycja."
           />
-          <link rel="shortcut icon" href="/icons/evig_logo.png"/>
+          <link rel="shortcut icon" href="/icons/logo_short.png"/>
           <link
             rel="apple-touch-icon"
             sizes="57x57"
-            href="/icons/evig_logo.png"
+            href="/icons/logo_short.png"
           />
           <link
             rel="apple-touch-icon"
             sizes="60x60"
-            href="/icons/evig_logo.png"
+            href="/icons/logo_short.png"
           />
           <link
             rel="apple-touch-icon"
             sizes="72x72"
-            href="/icons/evig_logo.png"
+            href="/icons/logo_short.png"
           />
           <link
             rel="apple-touch-icon"
             sizes="76x76"
-            href="/icons/evig_logo.png"
+            href="/icons/logo_short.png"
           />
           <link
             rel="apple-touch-icon"
             sizes="114x114"
-            href="/icons/evig_logo.png"
+            href="/icons/logo_short.png"
           />
           <link
             rel="apple-touch-icon"
             sizes="120x120"
-            href="/icons/evig_logo.png"
+            href="/icons/logo_short.png"
           />
           <link
             rel="apple-touch-icon"
             sizes="144x144"
-            href="/icons/evig_logo.png"
+            href="/icons/logo_short.png"
           />
           <link
             rel="apple-touch-icon"
             sizes="152x152"
-            href="/icons/evig_logo.png"
+            href="/icons/logo_short.png"
           />
           <link
             rel="apple-touch-icon"
             sizes="180x180"
-            href="/icons/evig_logo.png"
+            href="/icons/logo_short.png"
           />
           <link
             rel="icon"
             type="image/png"
             sizes="192x192"
-            href="/icons/evig_logo.png"
+            href="/icons/logo_short.png"
           />
           <link
             rel="icon"
             type="image/png"
             sizes="32x32"
-            href="/icons/evig_logo.png"
+            href="/icons/logo_short.png"
           />
           <link
             rel="icon"
             type="image/png"
             sizes="96x96"
-            href="/icons/evig_logo.png"
+            href="/icons/logo_short.png"
           />
           <link
             rel="icon"
             type="image/png"
             sizes="16x16"
-            href="/icons/evig_logo.png"
+            href="/icons/logo_short.png"
           />
           <link rel="manifest" href="/manifest.json" />
           <meta name="msapplication-TileColor" content="#2196f3" />
           <meta
             name="msapplication-TileImage"
-            content="/icons/evig_logo.png"
+            content="/icons/logo_short.png"
           />
           <meta name="theme-color" content="#2196f3" />
         </Head>

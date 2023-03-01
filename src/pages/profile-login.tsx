@@ -11,13 +11,13 @@ const Index: React.FC = () => {
   return (
       <>
         <div className="flex flex-row w-full h-screen overflow-hidden">
-          <div className="relative items-start justify-between hidden w-1/2 p-8 text-white lg:flex lg:flex-col bg-login-2">
+          <div className="relative items-start justify-between hidden w-1/2 p-8 text-white lg:flex lg:flex-col bg-login-3">
             <Logo />
             <Text />
             <Footer />
           </div>
           <div className="flex flex-col items-start justify-center w-full p-8 text-gray-900 bg-white dark:bg-gray-900 dark:text-white lg:w-1/2 lg:p-24">
-            <p className="mb-2 text-2xl font-bold text-slate-700">
+            <p className="mb-4 text-2xl font-bold text-slate-700">
               Zaloguj do {name}
             </p>
             <Login />

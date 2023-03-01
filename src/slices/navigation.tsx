@@ -40,63 +40,57 @@ const initialState: NavigationState[] = [
       {
         url: "/platform-opened",
         icon: <BsDoorOpen size={20} />,
-        title: "Opened Fundings",
+        title: "Aktywne wnioski",
         items: [],
       },
       {
         url: "/platform-closed",
         icon: <BsBagCheck size={20}/>,
-        title: "Closed Fundings",
+        title: "Zamknięte wnioski",
         items: [],
       },
       {
         url: "/platform-how-apply",
         icon: <GrDocumentVerified size={20} />,
-        title: "How to apply for funding?",
+        title: "Jak otrzymać kredyt?",
         items: [],
       },    
       {
         url: "/platform-how-fund",
         icon: <AiOutlinePlayCircle size={20} />,
-        title: "How to fund startup?",
+        title: "Jak inwestować?",
         items: [],
       },        
       {
         url: "/platform-faq",
         icon: <BsQuestionCircle size={20} />,
-        title: "FAQ",
+        title: "Pytania",
         items: [],
-      },
-      {
-        url: "/platform-social-feed",
-        icon: <RiTeamLine size={20} />,
-        title: "Social feed",
-        items: [],
-      },       
+      },     
     ]
   },
   {
-    title: "(after login) Profile",
+    title: "(po zalogowaniu) Profil",
     items: [
       {
         url: "/",
         icon: <FiStar size={20} />,
-        title: "Your Startups",
+        title: "Twoje wnioski",
         items: [
           {
             url: "/profile-startup-opened",
             // icon: <FiActivity size={20} />,
-            title: "Opened applications",
+            title: "Otwarte wnioski",
             items: [],
           },
           {
             url: "/profile-startup-completed",
-            title: "Completed applications",
+            title: "Zamknięte wnioski",
             items: [],
           },
           {
             url: "/profile-startup-incompleted",
-            title: "Incompleted applications",
+            title: "Udzielone kredyty",
             items: [],
           },          
         ],
@@ -104,99 +98,76 @@ const initialState: NavigationState[] = [
       {
         url: "/",
         icon: <FiShoppingCart size={20} />,
-        title: "Your Fundings",
+        title: "Twoje inwestycje",
         items: [
           {
             url: "/profile-funding-opened",
-            title: "Opened fundings",
+            title: "Otwarte inwestycje",
             items: [],
           },
           {
             url: "/profile-funding-completed",
-            title: "Completed fundings",
+            title: "Zamknięte inwestycje",
             items: [],
           },
           {
-            url: "/profile-funding-incompleted",
-            title: "Incompleted fundings",
+            url: "/profile-invoices",
+            title: "Twoje przychody",
             items: [],
-          }, 
+          },
         ],
-      },
-      {
-        url: "/profile-invoices",
-        icon: <TbFileInvoice size={20} />,
-        title: "Your invoices",
-        items: [],
       },
       {
         url: "/profile-inbox",
         icon: <FiInbox size={20} />,
-        title: "Inbox",
+        title: "Wiadomości",
         items: [],
       },
       {
         url: "/profile-info",
         icon: <CgProfile size={20} />,
-        title: "Profile",
+        title: "Profil",
         items: [],
       },      
       
     ]
   },
   {
-    title: "Information",
+    title: "Informacja",
     items: [
       {
         url: "/information-contact",
         icon: <GrContact size={20} />,
-        title: "Contact",
+        title: "Kontakt",
         items: [],
       },
       {
         url: "/information-support",
         icon: <BiSupport size={20} />,
-        title: "Support",
+        title: "Pomoc",
         items: [],
       },
       {
         url: "/information-terms-of-service",
         icon: <HiOutlineDocumentDuplicate size={20} />,
-        title: "Terms of service",
+        title: "Zasady użytkowania",
         items: [],
       },
       {
         url: "/information-privacy-policy",
         icon: <MdOutlinePolicy size={20} />,
-        title: "Privacy Policy",
+        title: "Polityka prywatności",
         items: [],
       },
       {
-        url: "https://evigalfa.pl/",
+        url: "https://creditpatron.pl/",
         icon: <RiFundsLine size={20} />,
-        title: "Evig Alpha",
+        title: "Credit Patron",
         items: [],
       },
 
     ]
   },
-  {
-    title: "(to refactor) Admin",
-    items: [
-      {
-        url: "/admin-business",
-        icon: <AiOutlineDashboard size={20} />,
-        title: "Business dashboard",
-        items: [],
-      },
-      {
-        url: "/admin-manage",
-        icon: <GrDocumentVerified size={20} />,
-        title: "Manage applications",
-        items: [],
-      }, 
-    ]
-  }
 ];
 
 // Define the initial state using that type

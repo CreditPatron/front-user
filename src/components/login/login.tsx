@@ -82,7 +82,7 @@ const Index: React.FC = () => {
           </button>
           <button
             type="submit"
-            className="inline-flex justify-center px-3 py-2 ml-3 text-sm font-medium text-white duration-500 bg-amber-400 border border-transparent shadow-sm rounded-md hover:bg-amber-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-amber-500">
+            className="inline-flex justify-center px-3 py-2 ml-3 text-sm font-medium text-white duration-500 bg-slate-700 border border-transparent shadow-sm rounded-md hover:bg-slate-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-amber-500">
             Zaloguj
           </button>
         </div>
