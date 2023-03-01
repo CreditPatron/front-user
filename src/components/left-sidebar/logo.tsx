@@ -11,8 +11,8 @@ const Logo: React.FC = () => {
     return (
       <div className="logo truncate">
         <Link href="/">
-          <a className="flex flex-row items-center justify-start space-x-2 pt-8 pl-2">
-            <img src="/icons/favicon.svg" alt="*" width="150" height="150"/>
+          <a className="flex flex-row items-center justify-start space-x-2 pt-8 px-2">
+            <img src="/logos/logo_dark.png" alt="*" width="210" height="10"/>
           </a>
         </Link>
         <button
