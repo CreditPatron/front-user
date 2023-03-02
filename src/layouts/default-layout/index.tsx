@@ -15,8 +15,8 @@ const DefaultLayout: React.FC<Layout1Props> = ({children}) => {
   return (
     <>
       <Head>
-        <title>EVIG Alpha</title>
-        <link rel="shortcut icon" href="/icons/evig_logo.png"/>
+        <title>Login Credit Patron</title>
+        <link rel="shortcut icon" href="/icons/favicon.png"/>
       </Head>
       <div
         data-layout={layout}
