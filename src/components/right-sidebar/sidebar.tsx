@@ -42,8 +42,8 @@ const Component: React.FC = () => {
 const Sidebar: React.FC = () => {
   return (
     <div className="flex flex-col p-4">
-      <div className="uppercase text-sm font-bold tracking-wider mb-2">
-        Toggle sidebar
+      <div className="text-sm font-bold tracking-wider mb-2">
+        Deaktywacja menu
       </div>
       <div className="flex flex-col">
         <Component />
