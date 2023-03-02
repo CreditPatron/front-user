@@ -6,6 +6,7 @@ import {Input} from "components/react-hook-form/input";
 import {Textarea} from "components/react-hook-form/textarea";
 import {Radio} from "components/react-hook-form/radio";
 import SubmitApplyFundingFormModalWindow from "./apply-credit-submit";
+import Title from "components/support/title";
 
 export type FormProps = {
   name: string;
@@ -53,10 +54,16 @@ const ApplyFunding: React.FC = () => {
   return (
       <>
         <Widget>
+          
           <FormProvider {...methods}>
             <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
-              <div className="space-y-6">
+              <div className="space-y-6 pt-8">
+              <Title
+              title="Zawnioskuj o kredyt"
+              description="Zawnioskuj z Credit Patron, aby uzyskać kredyt na korzystnych warunkach i w prosty sposób."
+            />
                 <div className="grid grid-cols-1 gap-y-6 gap-x-6 sm:grid-cols-10">
+                  
                   <InputWrapper outerClassName="sm:col-span-4">
                     <Input
                         id="name"
@@ -76,12 +83,11 @@ const ApplyFunding: React.FC = () => {
                     />
                   </InputWrapper>
                   <InputWrapper outerClassName="sm:col-span-4">
-                    <Label id="pattern">Numer kontantowy</Label>
                     <Input
                         id="pattern"
                         name="pattern"
                         type="text"
-                        placeholder="00##-###-###-####"
+                        placeholder="Numer kontantowy"
                         rules={{
                           required: "Phone number is required",
                           pattern: {
