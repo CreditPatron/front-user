@@ -1,5 +1,6 @@
 import {FiBell} from "react-icons/fi";
-import List2 from "./list-2";
+import {FiMessageSquare} from "react-icons/fi";
+import List2 from "./messages";
 
 import clsx from "clsx";
 import {Menu, Transition} from "@headlessui/react";
@@ -10,7 +11,7 @@ const Dropdown: React.FC = () => {
     <Menu as="div" className="relative hidden lg:inline-block text-left">
       <div>
         <Menu.Button className="flex items-center justify-center w-full px-4 py-2 text-xs font-bold uppercase focus:outline-none">
-          <FiBell size={18} />
+          <FiMessageSquare size={18} />
         </Menu.Button>
       </div>
       <Transition

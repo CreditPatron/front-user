@@ -3,15 +3,17 @@ import ProjectStatus from "./project-status";
 import clsx from "clsx";
 import {Menu, Transition} from "@headlessui/react";
 import {Fragment} from "react";
+import {FiBell} from "react-icons/fi";
 
 const Dropdown: React.FC = () => {
   return (
     <Menu as="div" className="relative hidden text-left lg:inline-block">
       <div>
         <Menu.Button className="relative px-4 py-2 focus:outline-none">
-          <FiMessageSquare size={18} />
-          <span className="absolute inline-flex items-center justify-center w-4 h-4 p-0 font-bold leading-none text-center text-white bg-blue-500 rounded-full top-[-2px] right-[8px] text-xs ring-2 ring-white">
-            5
+          {/* <FiMessageSquare size={18} /> */}
+          <FiBell size={18} />
+          <span className="absolute inline-flex items-center justify-center w-4 h-4 p-0 font-bold leading-none text-center text-white bg-slate-500 rounded-full top-[-2px] right-[8px] text-xs ring-2 ring-white">
+            3
           </span>
         </Menu.Button>
       </div>

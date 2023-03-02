@@ -18,43 +18,52 @@ export type ItemProps = {
 const ProfileLinks: React.FC = () => {
   const items: ItemProps[] = [
     {
-      url: "/profile-fundings",
+      url: "/profile-invoices",
       icon: <AiOutlineAppstoreAdd size={20} />,
-      name: "Funding's",
+      iconColor: "bg-sky-600",
+      name: "Wnioski kredytowe",
+      badge: {
+        number: 1,
+        color: "bg-sky-600 text-white",
+      },      
     },
     {
       url: "/profile-invoices",
       icon: <TbFileInvoice size={20} />,
-      name: "Invoices",
+      name: "Inwestycje",
+      badge: {
+        number: 2,
+        color: "bg-teal-600 text-white",
+      },  
     },
     {
       url: "/profile-inbox",
       icon: <FiInbox size={20} />,
-      name: "Inbox",
+      name: "Wiadomości",
       badge: {
         number: 2,
-        color: "bg-red-500 text-white",
+        color: "bg-slate-500 text-white",
       },
     },
     {
       url: "/profile-info",
       icon: <CgProfile size={20} />,
-      name: "Profile",
+      name: "Profil",
     },
     {
       url: "/profile-registration",
       icon: <FiLogIn size={20} className="stroke-current" />,
-      name: "Registration",
+      name: "Rejestracja",
     },
     {
       url: "/profile-login",
       icon: <FiLogIn size={20} className="stroke-current" />,
-      name: "Login",
+      name: "Zaloguj",
     },
     {
       url: "/profile-logout",
       icon: <FiLogOut size={20} className="stroke-current" />,
-      name: "Logout",
+      name: "Wyloguj",
     },
   ];
 

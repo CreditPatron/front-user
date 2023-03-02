@@ -16,7 +16,7 @@ const Navbar: React.FC = () => {
   const dispatch = useAppDispatch();
   return (
     <div className="bg-white dark:bg-gray-900 text-gray-900 dark:text-white border-b border-gray-100 dark:border-gray-800">
-      <div className="flex items-center justify-start w-full">
+      <div className="flex items-center justify-start w-full px-2">
         <button
           onClick={() =>
             dispatch(
@@ -32,8 +32,8 @@ const Navbar: React.FC = () => {
 
         <Dropdown6 />
         <span className="ml-auto"></span>
-        <Dropdown2 />
-        <Dropdown1 />
+        {/* <Dropdown2 /> */}
+        {/* <Dropdown1 /> */}
         <Dropdown4 />
         <Dropdown3 />
         {/*<Dropdown5 />*/}

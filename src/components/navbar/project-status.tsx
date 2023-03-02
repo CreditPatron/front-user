@@ -9,25 +9,25 @@ export type ItemProps = {
 const ProjectStatus: React.FC = () => {
   const items: ItemProps[] = [
     {
-      title: "Your Cool Company",
+      title: "Wniosek nr 3278743",
       percent: 33,
-      color: "bg-green-500",
+      color: "bg-sky-500",
     },
     {
       title: "Awesome Startup",
       percent: 80,
-      color: "bg-blue-800",
+      color: "bg-teal-500",
     },
     {
       title: "Great Enterprise",
       percent: 66,
-      color: "bg-blue-800",
+      color: "bg-teal-500",
     },
   ];
   return (
     <>
       <div className="text-gray-900 dark:text-white bg-white dark:bg-gray-800 w-full p-2 text-xs font-bold tracking-wider uppercase">
-        Startup funding
+        Status inwestycji
       </div>
       <div className="flex flex-col">
         {items.map((item, i) => (

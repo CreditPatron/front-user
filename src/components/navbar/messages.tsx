@@ -5,24 +5,23 @@ export type ItemProps = {
 
 const items: ItemProps[] = [
   {
-    title: "$100k new funding for your Startup",
-    subtitle: "Atque quaerat libero maiores vel.",
+    title: "Potwierdzona inwestycja",
+    subtitle: "Twoja inwestycja we wniosek nr 00673999 została zaksięgowana.",
   },
   {
-    title: "$3.000 profits invoice from Cool Startup",
-    subtitle: "Aut aut ullam eum possimus.",
+    title: "Potwierdzona inwestycja",
+    subtitle: "Twoja inwestycja we wniosek nr 23867328 została zaksięgowana.",
   },
   {
-    title: "$3.000 profits invoice from Cool Startup",
-    subtitle: "Fugiat praesentium soluta amet non.",
+    title: "Publikacja wniosku",
+    subtitle: "Twój wniosek o numerze 345434 został opublikowany dla inwestorów.",
   },
 ];
+
 
 const List2: React.FC = () => {
   return (
     <div className="flex flex-row flex-wrap">
-
-
       {items.map((item, i) => (
         <div
           key={i}

@@ -7,34 +7,29 @@ export type ItemProps = {
 const List1: React.FC = () => {
   const items: ItemProps[] = [
     {
-      title: "Teams",
+      title: "Zawnioskuj o kredyt",
       subtitle: "Minima quasi sunt.",
       number: "01",
     },
     {
-      title: "Blog",
+      title: "Otwarte inwestycje",
       subtitle: "Possimus non dolor.",
       number: "02",
     },
     {
-      title: "Meetups",
+      title: "Twoje wnioski kredytowe",
       subtitle: "Cupiditate aliquid magnam.",
       number: "03",
     },
     {
-      title: "Advertise with us",
+      title: "Twoje inwestycje",
       subtitle: "Doloribus modi cum.",
       number: "04",
     },
     {
-      title: "Features",
+      title: "Przychody",
       subtitle: "Voluptatum suscipit minima.",
       number: "05",
-    },
-    {
-      title: "Job board",
-      subtitle: "Magnam quae quia.",
-      number: "06",
     },
   ];
   return (

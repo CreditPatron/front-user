@@ -11,7 +11,7 @@ const Dropdown: React.FC = () => {
         <Menu.Button className="flex items-center justify-center w-full px-4 py-2 text-xs font-bold uppercase focus:outline-none">
           {({open}) => (
             <>
-              <span>Explore</span>
+              <span>Skróty</span>
               <FiChevronDown
                 className={clsx(
                   "w-4 h-4 mt-[-2px] ml-2 duration-300 ease-in-out",
