@@ -44,6 +44,7 @@ const Campaign: React.FC<CampaignItem> = ({
                 <img src={img} alt="media" className={`h-16 w-full shadow-lg rounded-lg shadow-lg`}/>
               </div>
             </a>
+            
             <div className="flex flex-col w-full min-w-0">
               <div className="text-sm font-bold" aria-disabled>
                 <a href={`/campaigns/${id}`}>
@@ -56,6 +57,7 @@ const Campaign: React.FC<CampaignItem> = ({
               <div className="text-sm">Category: {category}</div>
               <div className="text-sm truncate">{description}</div>
             </div>
+
             <div className="shrink-0">
               <div className="text-xl flex items-end justify-end">
                 <div className="text-sm"><b>Due date:</b> {dueDate}</div>
@@ -67,9 +69,25 @@ const Campaign: React.FC<CampaignItem> = ({
                 <div className="text-sm"><b>Requested:</b> {formatCurrency(sum)}</div>
               </div>
             </div>
+
+            <div className="shrink-0">
+              <div className="flex-none h-20 ... ">
+                <div className="ext-xl font-bold">
+                    <button className="px-2 py-1 text-base font-bold text-white uppercase rounded-lg bg-blue-900 hover:bg-blue-600  duration-500">
+                      Invest
+                    </button>
+                </div>
+                <div className="ext-xl font-bold">
+                    <button className="px-2 py-2 text-xs font-bold text-blue-900 uppercase rounded-lg bg-transparent border border-blue-900 hover:text-blue-700 hover:border-blue-700" onClick={() => setHidden(!hidden)} >
+                      Details
+                    </button>
+                </div>
+           
+              </div>
+            </div>            
           </div>
 
-          <div className="flex ... pt-1">
+          {/* <div className="flex ... pt-1">
             <div className="flex-none h-10 ... ">
               <div>
                 <div className="text-xl font-bold">
@@ -90,15 +108,8 @@ const Campaign: React.FC<CampaignItem> = ({
                     Invest
                   </button>
               </div>
-                {/* <div className="text-xl font-bold">
-                  <div className='px-3'>
-                    <button onClick={() => setHidden(!hidden)} className="px-2 py-2 text-xs font-bold text-blue-900 uppercase rounded-lg bg-transparent border border-blue-900 hover:text-blue-700 hover:border-blue-700">
-                      Details
-                    </button>
-                  </div>
-                </div> */}
             </div>
-          </div>
+          </div> */}
 
           <div className={`prose prose-sm max-w-none py-3 px-2 w-full text-gray-900 dark:text-white ${
                   hidden ? "hidden" : "block"
