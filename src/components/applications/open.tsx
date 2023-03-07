@@ -77,10 +77,10 @@ const Campaign: React.FC<CampaignItem> = ({
 
       <div key={id} className="w-full flex flex-col justify-center gap-4">
         
-        <div className="p-4 pt-4 gap-3 flex flex-wrap max-w-[1400px] rounded-lg bg-transparent shadow-lg border-2 border-slate-200 justify-center">
+        <div className="p-2 pt-4 gap-2 flex flex-wrap max-w-[1400px] rounded-lg bg-transparent shadow-lg border-2 border-slate-200 justify-center">
 
           <div className="lg:flex-shrink rounded-lg bg-slate-50 ">
-              <div className="p-4 m-2 w-20 lg:w-32 h-22 lg:h-36 w-full rounded-lg ">
+              <div className="p-1 m-2 w-16 h-18 lg:w-16  lg:h-18 w-full rounded-lg ">
                 <img src={img} alt="media" className=""/>
               </div>
           </div>

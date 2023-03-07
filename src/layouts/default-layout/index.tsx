@@ -26,11 +26,13 @@ const DefaultLayout: React.FC<Layout1Props> = ({children}) => {
           background === "dark" ? "dark" : ""
         }`}>
         <RightSidebar />
-        <div className="wrapper">
-          <LeftSidebar />
-          <div className="main w-full bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-white">
-            <Navbar1 />
-            <div className="w-full min-h-screen p-4">{children}</div>
+        <div className="container mx-auto">
+          <div className="wrapper">
+            <LeftSidebar />
+            <div className="main w-full bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-white">
+              <Navbar1 />
+              <div className="w-full min-h-screen p-4">{children}</div>
+            </div>
           </div>
         </div>
       </div>
