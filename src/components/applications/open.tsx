@@ -77,9 +77,9 @@ const Campaign: React.FC<CampaignItem> = ({
 
       <div key={id} className="w-full flex flex-col justify-center gap-4">
         
-        <div className="p-4 pt-4 gap-3 flex flex-wrap max-w-[1400px] rounded-lg bg-transparent shadow-lg border-2 border-slate-200">
+        <div className="p-4 pt-4 gap-3 flex flex-wrap max-w-[1400px] rounded-lg bg-transparent shadow-lg border-2 border-slate-200 justify-center">
 
-          <div className="lg:flex-shrink rounded-lg bg-slate-50">
+          <div className="lg:flex-shrink rounded-lg bg-slate-50 ">
               <div className="p-4 m-2 w-20 lg:w-32 h-22 lg:h-36 w-full rounded-lg ">
                 <img src={img} alt="media" className=""/>
               </div>
@@ -151,17 +151,16 @@ const Campaign: React.FC<CampaignItem> = ({
 
           <div className="lg:flex-none  ">
           <p className="pb-1 text-sm text-slate-700 lg:text-base font-bold">Pozostało: <b>{application_days_left} dni</b></p>
-            <div className="w-full text-sm lg:text-lg font-medium uppercase ">
+            <div className="w-full text-sm lg:text-lg font-medium uppercase grid grid-cols-2 lg:grid-cols-1 flex">
               <a>
-                <div className="m-2 p-2 text-slate-50 bg-teal-700 hover:bg-teal-500 rounded-lg duration-1000">
+                <p className="m-2 p-2 text-slate-50 bg-teal-700 hover:bg-teal-500 rounded-lg duration-1000">
                 ZAINWESTUJ
-                </div>
+                </p>
               </a>
-            
               <a onClick={() => setHidden(!hidden)}>
-                <div className="m-2 p-2 text-slate-700 bg-slate-50 hover:bg-slate-200 border-2 border-slate-300 rounded-lg duration-1000" >
+                <p className="m-2 p-2 text-slate-700 bg-slate-50 hover:bg-slate-200 border-2 border-slate-300 rounded-lg duration-1000" >
                   Szczegóły
-                </div>
+                </p>
               </a>
             </div>
           </div>
